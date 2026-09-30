@@ -4,9 +4,9 @@ import sys, os, html
 OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "wordmark.svg")
 
 ASCII_ART = [
-    "  █▀▀█  █▄  █  █▀▀█  █  █",
-    "  █▄▄█  █ █ █  █▄▄█  ▀▄▄▀",
-    "  █  █  █  ▀█  █  █    ██"
+    "  █▀▀█  █▀▀█  █▄  █  █▀▀█  █  █",
+    "  █▄▄█  █▄▄▀  █ █ █  █▄▄█  ▀▄▄▀",
+    "  █  █  █  █  █  ▀█  █  █    ██"
 ]
 
 CANVAS_W, CANVAS_H, PAD, TITLEBAR_H = 860, 260, 20, 32
@@ -31,15 +31,15 @@ svg_parts.append(f'<text x="{CANVAS_W/2}" y="{TITLEBAR_H/2 + 4}" fill="{MUTED}" 
 y_offset = 65
 for idx, line in enumerate(ASCII_ART):
     y = y_offset + idx * 30
-    svg_parts.append(f'<text x="35" y="{y}" fill="{ACCENT}" font-size="22" font-weight="bold" xml:space="preserve">{html.escape(line)}</text>')
+    svg_parts.append(f'<text x="20" y="{y}" fill="{ACCENT}" font-size="18" font-weight="bold" xml:space="preserve">{html.escape(line)}</text>')
 
-info_x = 420
+info_x = 430
 info_items = [
     ("OS", "macOS", GREEN),
     ("Host", "MacBook Air", TEXT),
-    ("Role", "Software Developer & Tech Enthusiast", ACCENT),
+    ("Role", "Software Developer & Data Scientist", ACCENT),
     ("Languages", "Python, JavaScript, SQL, Jupyter", TEXT),
-    ("Focus", "Machine Learning & Software Engineering", GREEN),
+    ("Focus", "Data Science & Software Engineering", GREEN),
     ("Status", "Building open-source software on GitHub 🚀", TEXT)
 ]
 
