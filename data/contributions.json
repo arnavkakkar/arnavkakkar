@@ -1,21 +1,21 @@
 {
   "username": "arnavkakkar",
-  "generated_at": "2026-11-26T16:50:43Z",
+  "generated_at": "2026-11-27T16:36:12Z",
   "range": {
     "start": "2025-11-23",
+    "end": "2026-11-27"
+  },
+  "total_contributions": 975,
+  "active_days": 117,
+  "current_streak": {
+    "length": 60,
+    "start": "2026-09-28",
     "end": "2026-11-26"
   },
-  "total_contributions": 974,
-  "active_days": 116,
-  "current_streak": {
-    "length": 59,
-    "start": "2026-09-28",
-    "end": "2026-11-25"
-  },
   "longest_streak": {
-    "length": 59,
+    "length": 60,
     "start": "2026-09-28",
-    "end": "2026-11-25"
+    "end": "2026-11-26"
   },
   "best_day": {
     "date": "2026-10-21",
@@ -1496,6 +1496,10 @@
     },
     {
       "date": "2026-11-26",
+      "count": 1
+    },
+    {
+      "date": "2026-11-27",
       "count": 0
     }
   ]
